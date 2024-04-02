@@ -9,7 +9,6 @@
     "build:css": "tailwindcss -o ./app/styles/app.css",
     "dev": "concurrently \"yarn dev:css\" \"remix dev\"",
     "dev:css": "tailwindcss -o ./app/styles/app.css --watch",
-    "postinstall": "remix setup node"
   },
   "dependencies": {
     "@remix-run/react": "^1.3.3",
